@@ -12,7 +12,6 @@ import java.util.Scanner;
 import Admin.Menu;
 import Admin.Pesanan;
 
-
 public final class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -32,7 +31,7 @@ public final class Main {
 
             System.out.print("Pilih opsi: ");
             int pilihan = scanner.nextInt();
-            scanner.nextLine(); // Clear the newline character
+            scanner.nextLine();
 
             switch (pilihan) {
                 case 1:
